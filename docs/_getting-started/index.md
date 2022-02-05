@@ -60,7 +60,7 @@ These are:
 
 - **Full**: Downloads all blocks (including headers, transactions, and receipts) and
 generates the state of the blockchain incrementally by executing every block.
-- **Snap** (Default): Same functionality as fast, but with a faster algorithm.   
+- **Snap** (Default): Same functionality as fast (what do you mean? you mean "as Full"?), but with a faster algorithm.   
 - **Light**: Downloads all block headers, block data, and verifies some randomly.
 
 For this tutorial, we use a `light` sync:
